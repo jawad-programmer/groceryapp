@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Grocery App</h1>
+    <p>Manage your shopping list with ease</p>
+    <p id="total">Total items to buy: 0</p>
+
+    <form id="groceryForm">
+      <input type="text" name="item" placeholder="Enter grocery item..." required>
+      <button type="submit">+</button>
+    </form>
+
+    <div id="list"></div>
+
+    <p class="tip">
+      Tip: Use the - and + buttons to adjust quantities, or the trash button to remove items
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
